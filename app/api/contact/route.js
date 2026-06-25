@@ -8,7 +8,7 @@ export async function POST(req) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      from: 'contact@yourdomain.com',
+      from: 'onboarding@resend.dev',
       to: 'tomasz.a.s@icloud.com',
       subject: `New message from ${name}`,
       html: `<p><strong>From:</strong> ${name} (${email})</p><p>${message}</p>`,
