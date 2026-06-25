@@ -43,7 +43,7 @@ export default function About() {
             lineHeight: 1.1,
             marginBottom: '2rem',
           }}>
-            Your Name
+            Tomasz Sadowski
           </h1>
 
           <p style={{
